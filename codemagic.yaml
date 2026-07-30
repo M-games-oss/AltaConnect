@@ -13,4 +13,4 @@ workflows:
       - name: Build unsigned IPA
         script: flutter build ipa --no-codesign
     artifacts:
-      - build/ios/ipa/*.ipa
+      - build/ios/archive/Runner.xcarchive
